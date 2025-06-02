@@ -1,0 +1,138 @@
+/* Reset margins and paddings for all elements, set box-sizing and font */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Set background color for the whole page */
+body {
+  background-color: #1e1e2f; /* Dark bluish background */
+}
+
+/* Main card container styling */
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0); /* Gradient background */
+  color: #fff; /* White text color */
+  margin: 100px auto 0; /* Center card horizontally with top margin */
+  border-radius: 20px; /* Rounded corners */
+  padding: 40px 35px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Soft drop shadow */
+}
+
+/* Search bar container */
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Space below search bar */
+}
+
+/* Input field styling */
+.search input {
+  border: none;
+  outline: none;
+  background: #ffffff; /* White background */
+  color: #333; /* Dark text */
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 10px;
+  flex: 1; /* Take up remaining space */
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+/* Search button styling */
+.search button {
+  border: none;
+  outline: none;
+  background-color: #ffffff; /* White background */
+  color: #2193b0; /* Blue text */
+  border-radius: 10px;
+  padding: 0 20px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for search button */
+.search button:hover {
+  background-color: #d2f3f9; /* Light blue on hover */
+}
+
+/* Weather icon styling */
+.weather-icon {
+  width: 150px;
+  margin-top: 30px;
+}
+
+/* Temperature text styling */
+.weather h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+/* City name text styling */
+.weather h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: -10px; /* Pull closer to temperature */
+}
+
+/* Container for humidity and wind details */
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  margin-top: 40px;
+  gap: 30px; /* Space between columns */
+}
+
+/* Each column for weather details */
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+/* Icons inside detail columns */
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Humidity and wind values */
+.humidity,
+.wind {
+  font-size: 18px;
+  margin-top: -6px; /* Slight upward adjustment */
+}
+
+/* Weather section is hidden by default */
+.weather {
+  display: none;
+}
+
+/* Error message styling */
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none; /* Hidden until error occurs */
+  color: #ffd1d1; /* Light red/pink color */
+}
+
+
+
+  
+
+
