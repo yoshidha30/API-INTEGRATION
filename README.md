@@ -13,7 +13,7 @@
 "MENTOR": NEELA SANTHOSH KUMAR
 
 
-TASK DESCRIPTION:
+#TASK DESCRIPTION:
             Simple Weather App – Elegant & Real-Time Weather Updates
 The Simple Weather App is a clean, intuitive, and responsive application designed to provide real-time weather updates for any city in the world. With its modern design, user-friendly interface, and accurate data, this app is a perfect tool for users who want a quick glance at the current weather conditions in a particular location.
 
@@ -36,6 +36,12 @@ Styling is done entirely through CSS, giving the app a light, modern appearance.
 Whether you're checking the weather before stepping out or just curious about the climate in a different city, this app makes the process fast, smooth, and enjoyable. Its simplicity, reliability, and eye-catching design make it a great personal tool and also an excellent project for those learning web development using APIs.
 
  Conclusion: This Weather App combines beauty with functionality, delivering accurate weather data in an attractive and easy-to-use format — perfect for everyday users and developers alike.
+
+
+ #OUTPUT
+
+
+ ![Image](https://github.com/user-attachments/assets/f91789a5-3a70-43ba-b7a3-fd23fe55594b)
 
 
           
