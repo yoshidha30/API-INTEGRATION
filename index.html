@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta info for character encoding and responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Page title shown in the browser tab -->
+    <title>Weather App</title>
+    
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Favicon shown in the browser tab -->
+    <link rel="shortcut icon" href="img/clear.png" />
+  </head>
+  <body>
+    <!-- Main card container for the weather app -->
+    <div class="card">
+      
+      <!-- Search section with input and button -->
+      <div class="search">
+        <!-- Input for user to enter city name -->
+        <input type="text" id="cityInput" placeholder="Enter city name" spellcheck="false" />
+        
+        <!-- Button to trigger weather search -->
+        <button onclick="getWeather()">Search</button>
+      </div>
+
+      <!-- Error message shown if city is invalid -->
+      <div class="error">
+        <p>Invalid city name.</p>
+      </div>
+
+      <!-- Weather info section, initially hidden -->
+      <div class="weather">
+        <!-- Icon for weather condition -->
+        <img src="img/rain.png" class="weather-icon" alt="" />
+        
+        <!-- Display temperature -->
+        <h1 class="temp">22°C</h1>
+        
+        <!-- Display city name -->
+        <h2 class="city">New York</h2>
+
+        <!-- Container for weather details -->
+        <div class="details">
+          
+          <!-- Humidity info -->
+          <div class="col">
+            <img src="img/humidity.png" alt="" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <!-- Wind speed info -->
+          <div class="col">
+            <img src="img/wind.png" alt="" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="./script.js"></script>
+  </body>
+</html>
+
